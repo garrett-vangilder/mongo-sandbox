@@ -10,8 +10,7 @@ const DriverSchema = new Schema({
     type: Boolean,
     default: false,
     required: true
-  },
-  location: Geolocation
+  }
 });
 
 const Driver = mongoose.model('driver', DriverSchema);
